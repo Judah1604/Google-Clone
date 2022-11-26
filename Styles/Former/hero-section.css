@@ -1,0 +1,22 @@
+
+.hero-section {
+	height: 270px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: rgb(222, 222, 222);
+	padding: 1em;
+}
+
+.hero-content {
+	width: 80%;
+}
+
+.hero-content h1 {
+	font-size: 6em;
+}
+
+.hero-content a {
+	color: black;
+	font-weight: 600;
+}

@@ -1,0 +1,15 @@
+
+.main-container {
+	height: fit-content;
+	display: flex;
+    justify-content: center;
+    align-content: center;
+	padding: 50px;
+}
+
+.main-content {
+	width: 80%;
+	height: 500px;
+	border-radius: 5px;
+	box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.5);
+}
