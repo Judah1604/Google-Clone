@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Google clone</title>
-	<link rel="stylesheet" href="Styles/common.css">
-	<link rel="stylesheet" href="Styles/nav.css">
-	<link rel="stylesheet" href="Styles/main.css">
-	<link rel="stylesheet" href="Styles/footer.css">
-	<script src="https://kit.fontawesome.com/08c9114e01.js" crossorigin="anonymous"></script>
+    <title>Google clone</title>
+    <link rel="stylesheet" href="Styles/common.css">
+    <link rel="stylesheet" href="Styles/nav.css">
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+    <script src="https://kit.fontawesome.com/08c9114e01.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-	<div class="nav-container">
-		<div class="slider-container">
-			<div class="slider">
-				<button class="darkbtn"></button>
-			</div>
-		</div>
-	
-		<div class="nav-items">
-			<div class="nav-item"><a href="#" class="nav1">Gmail</a></div>
-			<div class="nav-item"><a href="#" class="nav2">Images</a></div>
-			<div class="nav-item"><i class="fa-solid fa-bars"></i></div>
-			<div class="nav-item"><button class="signin-btn">Sign in</button></div>
-		</div>
-	</div>
-	
-	<div class="main-container">
-		<div class="main-content">
-			<div class="google-logo">
-				<IMG SRC="IMAGES/GOOGLELOGO.PNG" alt="googlelogo">
-			</div>
-			<div class="search-bar">
-				<input type="text" class="search">
-			</div>
-		
-			<div class="search-options">
-				<div class="option1">Google Search</div>
-				<div class="option2">I'm Feeling Lucky</div>
-			</div>
-		
-			<div class="languages">
-				Google offered in: <span class="lang-options"> Hausa  Igbo  Ede Yoruba  Nigerian Pidgin</span>
-			</div>
-		</div>
-	</div>
-	
-	<div class="footer">
-		<div class="footerline1"><a href="#">Nigeria</a></div>
-		<div class="footerline2">
-			<div class="col1">
-				<a href="#">About</a>     
-				<a href="#">Advertising</a>
-				<a href="#">Business</a>
-				<a href="#">How Search Works</a>
-			</div>
-			<div class="col2">
-				<a href="#">Carbon Neutral since 2007</a>
-			</div>
-			<div class="col3">
-				<a href="#">Privacy</a>
-				<a href="#">Terms</a>
-				<a href="#">Settings</a>
-			</div>
-		</div>
-	</div>
-	
-	<script src="JS/search.js"></script>
-	<script src="JS/modeChanger.js"></script>
+    <div class="nav-container">
+        <div class="slider-container">
+            <div class="slider">
+                <button class="darkbtn"></button>
+            </div>
+        </div>
+
+        <div class="nav-items">
+            <div class="nav-item"><a href="#" class="nav1">Gmail</a></div>
+            <div class="nav-item"><a href="#" class="nav2">Images</a></div>
+            <div class="nav-item"><i class="fa-solid fa-bars"></i></div>
+            <div class="nav-item"><button class="signin-btn">Sign in</button></div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="main-content">
+            <div class="google-logo">
+                <IMG SRC="IMAGES/GOOGLELOGO.PNG" alt="googlelogo">
+            </div>
+            <div class="search-bar">
+               <form role="search" class="searchform" action="https://www.google.com/search?q='q'">
+                    <input type="text" class="search" name="q">
+                <button class="searchicon" type="submit">
+                    <i class="fa-solid fa-magnifying-glass" fa-3></i>
+                </button>
+               </form>
+            </div>
+
+            <div class="search-options">
+                <div class="option1">Google Search</div>
+                <div class="option2">I'm Feeling Lucky</div>
+            </div>
+
+            <div class="languages">
+                Google offered in: <span class="lang-options"> Hausa Igbo Ede Yoruba Nigerian Pidgin</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerline1"><a href="#">Nigeria</a></div>
+        <div class="footerline2">
+            <div class="col1">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
+            </div>
+            <div class="col2">
+                <a href="#">Carbon Neutral since 2007</a>
+            </div>
+            <div class="col3">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="JS/modeChanger.js"></script>
 </html>
