@@ -28,6 +28,7 @@
     border-radius: 100px;
     margin-left: 5px;
 	transition: all 0.4s ease-in-out;
+	outline: none;
 }
 
 .active {
